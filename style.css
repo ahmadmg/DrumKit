@@ -1,0 +1,57 @@
+* {
+    box-sizing:border-box
+  }
+  
+  body {
+    margin:0;
+    background:#34359f
+  }
+  
+  #app {
+    height:18.875em;
+    width:34em;
+    margin:5em auto;
+    padding:3em 0 0 3em;
+    position:relative;
+    border:1px solid #160801;
+    border-radius:1em;
+    background-color: #777;
+  }
+  
+  button {
+    margin:0;
+    padding:0;
+    list-style:none;
+    position:relative;
+  }
+  
+  #App .white {
+    height:16em;
+    width:4em;
+    z-index:1;
+    border-left:1px solid #bbb;
+    border-bottom:1px solid #bbb;
+    border-radius:0 0 5px 5px;
+  
+  }
+  
+  #App .white:active {
+    border-top:1px solid #777;
+    border-left:1px solid #999;
+    border-bottom:1px solid #999;
+  
+  }
+  
+  
+  
+  .clap,.hihat,.kick,.openhat,.ride,.snare ,.tink ,.tom {
+    margin:0 0 0 -1em
+  }
+  
+  #App button:first-child {
+    border-radius:5px 0 5px 5px
+  }
+  
+ #App button:last-child {
+    border-radius:0 5px 5px 5px
+  }
