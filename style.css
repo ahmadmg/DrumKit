@@ -11,11 +11,13 @@
     height:18.875em;
     width:34em;
     margin:5em auto;
-    padding:3em 0 0 3em;
     position:relative;
     border:1px solid #160801;
     border-radius:1em;
     background-color: #777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   button {
@@ -23,19 +25,17 @@
     padding:0;
     list-style:none;
     position:relative;
-  }
-  
-  #App .white {
     height:16em;
     width:4em;
     z-index:1;
     border-left:1px solid #bbb;
     border-bottom:1px solid #bbb;
     border-radius:0 0 5px 5px;
-  
   }
   
-  #App .white:active {
+  
+  
+  button:active {
     border-top:1px solid #777;
     border-left:1px solid #999;
     border-bottom:1px solid #999;
